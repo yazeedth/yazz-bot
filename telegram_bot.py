@@ -72,7 +72,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_sessions[user_id] = model.start_chat(history=[])
     await update.message.reply_text(
         "أهلاً فيك! 👋\n"
-        "أنا مساعدك الشخصي، اسألني عن أي شي - ألعاب، برمجة، أو أي معلومة تبغاها.\n\n"
+        "أنا ياز مساعدك الشخصي، كيف اقدر اساعدك اليوم.\n\n"
         "أوامر مفيدة:\n"
         "/start - يبدأ محادثة جديدة (ينسى القديمة)\n"
         "/help - يعرض هذي الرسالة"
