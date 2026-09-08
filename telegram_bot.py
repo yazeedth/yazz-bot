@@ -41,7 +41,7 @@ if not TELEGRAM_BOT_TOKEN or not GEMINI_API_KEY:
 
 # إعداد Gemini
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")  # نموذج سريع ومجاني
+model = genai.GenerativeModel("gemini-2.0-flash")  # نموذج سريع ومجاني
 
 # إعداد تسجيل الأحداث (اختياري، يساعدك تشوف الأخطاء)
 logging.basicConfig(
